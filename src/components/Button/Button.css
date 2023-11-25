@@ -1,0 +1,21 @@
+@media screen and (max-width: 600px) {
+    .button {
+        position: absolute;
+        top: 127px;
+        left: 45%;
+        background-color: hsl(150, 100%, 66%);
+        border-radius: 100%;
+        border: 1px white solid;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .button {
+        position: absolute;
+        top: 375px;
+        left: 45%;
+        background-color: hsl(150, 100%, 66%);
+        border-radius: 100%;
+        border: 1px white solid;
+    }
+}
