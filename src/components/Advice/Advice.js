@@ -13,7 +13,7 @@ const Advice = (props) => {
         try {
             const response = await fetch('https://api.adviceslip.com/advice');
             const jsonData = await response.json();
-            console.log(jsonData)
+            // console.log(jsonData)
             setAdvice(jsonData);
             // Do something with the fetched data
           } catch (err) {
